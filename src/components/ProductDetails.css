@@ -1,0 +1,89 @@
+.course-detail{
+    display: flex;
+    flex-direction: column; 
+  }
+
+.course-title{
+    color:rgb(12, 121, 121) ;
+    font-weight: bolder;
+    padding:30px;
+    font-size: 30px;
+    background-color: black;
+  }
+.video-info{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+
+.course-description-finance{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:30px;
+    }
+
+.course-description{    
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: column;
+    padding:20px;
+    width:87%;
+    /* border: 2px solid rgb(186, 178, 178); */
+    box-shadow: inset 0px 0px 1px 1px gray;
+}
+
+.course-description h3{
+    color:darkslategrey;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: left;
+  }
+  
+  .course-description ul {
+    display: grid;
+    grid-template-columns: auto auto; /* Three columns with equal width */
+    grid-gap: 7px; /* Gap between grid items */
+  }
+.course-description li{
+   list-style-type: none;
+    padding-top: 5px;
+    font-size: 0.8em;
+    /* font-family:Roboto,Helvetica,Arial,sans-serif; */
+  }
+  .course-description li::before{
+    content: '\2714';
+    margin-right: 5px;
+  }
+.course-requirement{
+  padding:30px;
+}
+.course-requirement li{
+  padding-top: 5px;
+  font-size: 0.8em;
+}
+
+.course-finance{
+    box-shadow: 0px 0px 5px 2px gray;
+    padding:50px;
+    align-items: center;
+}
+
+.product-image-conatiner{
+    width:125%;
+    height: 100%;
+}
+.product-image-conatiner video{
+    border: 1px solid rgb(186, 178, 178);
+    /* box-shadow: inset 0px 0px 2px 2px gray; */
+    width:500px;
+    height:300px;
+}
+
+.course-info-element{
+display: flex;
+flex-direction: row;
+gap:10px;
+}
